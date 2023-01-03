@@ -1,0 +1,41 @@
+.weather{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 90px !important;
+        margin-top: 18px;
+        
+}
+.weather-icon{
+    width: 110px;
+    height: 90%;
+}
+.card-w{
+    width: 35rem;
+    margin-top: 10px;
+    animation: backInDown;/* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    background-color: transparent !important;
+    
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+}
+
+.card{
+    border: 0px !important;
+    background-color: transparent !important;
+}
+.degree{
+    font-size: 50px;
+    font-weight: bolder;
+    /* transform: scaleY(2.4); */
+}
+.locIcon{
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+.thermIcon{
+    width: 24px;
+    height: 30px;
+    margin-right: 4px;
+}
