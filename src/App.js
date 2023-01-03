@@ -3,7 +3,7 @@ import "./App.css";
 import Search from "./components/search/search";
 import CurrentWeather from "./components/current-weather/current-weather";
 import { CURRENT_WEATHER_API_KEY, CURRENT_WEATHER_API_URL } from "./Api";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Forecast from "./components/forecast/forecast";
 import Time from "./components/currenttime/time";
 

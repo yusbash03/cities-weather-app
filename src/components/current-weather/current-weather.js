@@ -5,7 +5,7 @@ const CurrentWeather = ({ data }) => {
       <div className="card card-w">
         <div className="card-body">
           <div className="row">
-            <div className="col-md-4 main col-sm-12">
+            <div className="col-md-4 main col-sm-6">
               <h5 className="card-title">
                 <img alt="icon" className="locIcon" src="location.png" />
                 {data.city}
@@ -17,22 +17,22 @@ const CurrentWeather = ({ data }) => {
               </h2>
               {/* <h6>max 20°C, min. 20°C</h6> */}
             </div>
-            <div className="col-md-4 main">
+            <div className="col-md-4 col-sm-6">
               <img
                 alt="icon"
                 className="weather-icon"
                 src={`icons/${data.weather[0].icon}.svg`}
               />
             </div>
-            <div className="col-md-4 main">
+            <div className="col-md-4 col-sm-6">
               <h5 className="card-subtitle mb-2 ">
                 {data.weather[0].description}
               </h5>
               <div className="row">
-                <div className="col-md-7 col-sm-6">
+                <div className="col-lg-7 col-sm-3">
                   <h6>Feels Like</h6>
                 </div>
-                <div className="col-md-5 col-sm-6">
+                <div className="col-lg-5 col-sm-3">
                   <h6>{Math.round(data.main.feels_like)}°C</h6>
                 </div>
                 <div className="col-md-7 col-sm-6">
