@@ -1,0 +1,28 @@
+.weather-icon-f {
+    width: 50px;
+    height: 45%;
+}
+
+.card-f {
+    margin-top: 10px;
+    /* margin-right: 0.7rem; */
+    margin-bottom: 3px !important;
+    /* width: 12rem !important; */
+    animation: backInDown;
+    border: 0px !important;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
+}
+
+.degree-f {
+    font-size: 15px;
+    font-weight: bold;
+    
+    /* transform: scaleY(2.4); */
+}
+.text-muted-f{
+    font-weight: bolder;
+    font-size: 19px;
+    color: #909497;
+}
