@@ -27,7 +27,7 @@ const Forecast = ({ data }) => {
                 <img
                   alt="icon"
                   className="weather-icon-f"
-                  src={`icons/${item.weather[0].icon}.svg`}
+                  src={`icons/${item.weather[0].icon}.png`}
                 />
               </div>
               <br />

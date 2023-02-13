@@ -5,12 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: #d5d4d4; */
+ 
   /* background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%); */
     background-image: url('./images/weatherbg7.jpg');
       background-size: cover;
       background-repeat: no-repeat;
-      
       /* background-position: center; */
 }
 
@@ -21,3 +20,16 @@ code {
 /* h1,h2,h3,h4,h5,h6,p{
   color: whitesmoke;
 } */
+.main{
+  flex: 2 100%;
+}
+@media (min-width: 600px) {
+
+  .main, .row .col-md-4 {
+    flex: 1 100%;
+  }
+
+  .main {
+    flex: 2 100%;
+  }
+}
