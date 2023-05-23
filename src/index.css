@@ -23,13 +23,24 @@ code {
 .main{
   flex: 2 100%;
 }
-@media (min-width: 600px) {
+@media (max-width: 767px) {
 
   .main, .row .col-md-4 {
     flex: 1 100%;
   }
-
+         body {
+           background-image: none;
+           background-color:whitesmoke;
+         }
   .main {
     flex: 2 100%;
   }
+  .weather{
+    text-align: center;
+  }
 }
+/* @media (max-width: 767px) {
+  body {
+    background-size: 100% 100%;
+  }
+} */
